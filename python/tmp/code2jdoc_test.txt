@@ -1,0 +1,5 @@
+03/01/2024 12:23:29 PM: [ COMMAND: ../../main/train.py --only_test True --data_workers 5 --dataset_name python --data_dir ../../data/ --model_dir ../../tmp --model_name code2jdoc --dev_src test/code.original_subtoken --dev_sub test/code.original_subtoken --dev_ky test/code.intoken --dev_it test/code.intoken --dev_is test/code.instatement --dev_df test/dataflow_subtoken_v3.npy --dev_cf test/dataflow_subtoken_v3.npy --dev_tgt test/javadoc.original --uncase True --max_src_len 150 --max_tgt_len 50 --max_examples -1 --test_batch_size 64 ]
+03/01/2024 12:23:29 PM: [ ---------------------------------------------------------------------------------------------------- ]
+03/01/2024 12:23:29 PM: [ Load and process data files ]
+03/01/2024 12:23:31 PM: [ Num dev examples = 18502 ]
+03/01/2024 12:23:31 PM: [ ---------------------------------------------------------------------------------------------------- ]
